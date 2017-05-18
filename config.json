@@ -7,8 +7,8 @@
     "limitSplit": 16,
     "defaultPlayerMass": 10,
 	"virus": {
-    "fill": "#33ff33",
-  	"stroke": "#19D119",
+    "fill": "#dff442",
+  	"stroke": "#002aff",
 		"strokeWidth": 20,
 		"defaultMass": {
             "from": 100,
@@ -29,9 +29,9 @@
     "foodUniformDisposition": true,
     "virusUniformDisposition": false,
     "newPlayerInitialPosition": "farthest",
-    "massLossRate": 1,
-    "minMassLoss": 50,
-    "mergeTimer": 0,
+    "massLossRate": 0,
+    "minMassLoss": 0,
+    "mergeTimer": 0.5,
     "sqlinfo":{
       "connectionLimit": 100,
       "host": "DEFAULT",
