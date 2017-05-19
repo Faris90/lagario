@@ -34,7 +34,7 @@
     "mergeTimer": 0.1,
     "sqlinfo":{
       "connectionLimit": 100,
-      "host": "FSUL",
+      "host": "DEFAULT",
       "user": "root",
       "password": "DEFAULT",
       "database": "DEFAULT",
