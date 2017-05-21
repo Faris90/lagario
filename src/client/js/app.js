@@ -97,7 +97,7 @@ window.onload = function() {
                 nickErrorText.style.opacity = 0;
                 startGame('player');
             } else {
-                nickErrorText.style.opacity = 1;
+                nickErrorText.style.opacity = 0;
             }
         }
     });
