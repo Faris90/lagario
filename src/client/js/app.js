@@ -14,7 +14,7 @@ var KEY_LEFT = 37;
 var KEY_UP = 38;
 var KEY_RIGHT = 39;
 var KEY_DOWN = 40;
-var borderDraw = false;
+var borderDraw = true;
 var animLoopHandle;
 var spin = -Math.PI;
 var enemySpin = -Math.PI;
@@ -97,7 +97,7 @@ window.onload = function() {
                 nickErrorText.style.opacity = 0;
                 startGame('player');
             } else {
-                nickErrorText.style.opacity = 0;
+                nickErrorText.style.opacity = 1;
             }
         }
     });
