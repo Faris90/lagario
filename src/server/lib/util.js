@@ -85,7 +85,7 @@ exports.findIndex = function(arr, id) {
 };
 
 exports.randomColor = function() {
-    var color = prompt("what color is your cell(hex code)dont forget to type # first","#4286f4")
+    var color = prompt("what color is your cell(hex code)dont forget to type # first","#4286f4");
 
     return {
         fill: color,
