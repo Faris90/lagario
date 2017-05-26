@@ -52,6 +52,7 @@ describe('util.js', function () {
       expect(n3).to.be.true;
       expect(n4).to.be.true;
       expect(n5).to.be.true;
+      expect(n6).to.be.true
     });
 
     it('should disallow unicode-dependent alphabets', function () {
