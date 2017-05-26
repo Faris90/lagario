@@ -46,7 +46,7 @@ describe('util.js', function () {
           n3 = util.validNick('hank'),
           n4 = util.validNick('marie_schrader12'),
           n5 = util.validNick('p');
-
+          n6 = util.validNick('lol lol');
       expect(n1).to.be.true;
       expect(n2).to.be.true;
       expect(n3).to.be.true;
@@ -57,7 +57,7 @@ describe('util.js', function () {
     it('should disallow unicode-dependent alphabets', function () {
       var n1 = util.validNick('Йèæü');
 
-      expect(n1).to.be.true;
+      expect(n1).to.be.false;
     });
 
     it('should disallow spaces in nicknames', function () {
