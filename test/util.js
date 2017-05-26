@@ -57,7 +57,7 @@ describe('util.js', function () {
     it('should disallow unicode-dependent alphabets', function () {
       var n1 = util.validNick('Йèæü');
 
-      expect(n1).to.be.false;
+      expect(n1).to.be.true;
     });
 
     it('should disallow spaces in nicknames', function () {
