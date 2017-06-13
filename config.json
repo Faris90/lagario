@@ -14,7 +14,7 @@
             "from": 1,
             "to": 500
         },
-		"splitMass": 2800
+		"splitMass": 180
 	},
     "gameWidth": 5000,
     "gameHeight": 5000,
@@ -31,7 +31,7 @@
     "newPlayerInitialPosition": "farthest",
     "massLossRate": 0,
     "minMassLoss": 0,
-    "mergeTimer": 0.06,
+    "mergeTimer": 0.5,
     "sqlinfo":{
       "connectionLimit": 100,
       "host": "DEFAULT",
