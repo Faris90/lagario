@@ -54,7 +54,7 @@ describe('util.js', function () {
       expect(n5).to.be.true;
     });
 
-    it('should disallow unicode-dependent alphabets', function () {
+    it('should allow unicode-dependent alphabets', function () {
       var n1 = util.validNick('Йèæü');
 
       expect(n1).to.be.true;
@@ -62,7 +62,7 @@ describe('util.js', function () {
 
     it('should allow spaces in nicknames', function () {
         var n1 = util.validNick('Walter White');
-        expect(n1).to.be.false;
+        expect(n1).to.be.true;
     });
   });
 
