@@ -54,7 +54,7 @@ describe('util.js', function () {
       expect(n5).to.be.true;
     });
 
-    it('should allow unicode-dependent alphabets', function () {
+    it('should disallow unicode-dependent alphabets', function () {
       var n1 = util.validNick('Йèæü');
 
       expect(n1).to.be.true;
